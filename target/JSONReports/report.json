@@ -1,0 +1,175 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-21T09:56:48.444Z",
+        "line": 12,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5910000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefination.SignIN.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5014000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefination.SignIN.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2601000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Prakash@lapits.com and Prakash@12345678",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prakash@lapits.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Prakash@12345678",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.SignIN.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4381000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login",
+            "match": {
+              "location": "StepDefination.SignIN.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6133000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefination.SignIN.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-21T09:57:12.768Z",
+        "line": 13,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2132000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefination.SignIN.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4995000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefination.SignIN.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2618000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Prakashnimje800@gmail.com and Prakash@8055",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prakashnimje800@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Prakash@8055",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.SignIN.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4368000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login",
+            "match": {
+              "location": "StepDefination.SignIN.user_clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6091000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefination.SignIN.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:Features/SignIN.feature",
+    "tags": []
+  }
+]
